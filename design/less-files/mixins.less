@@ -1,0 +1,39 @@
+@keyframes move {
+	0% {
+	  transform: translateY(0px) translateX(1000px);
+	}
+	50% {
+	  transform: translateY(0px) translateX(-1000px);
+	}
+	100% {
+	  transform: translateY(0) translateX(1000px);
+	}
+}
+
+@keyframes spin{
+	100% {transform: rotate(475deg);}
+}
+
+@keyframes wiggle {
+	0% {transform: rotate(15deg);}
+	25% {transform: rotate(-15deg);}
+	50% {transform: rotate(15deg);}
+	75% {transform: rotate(-15deg);}
+	100% {transform: rotate(15deg);}
+
+}
+
+
+.shadow {
+    text-shadow: -1px -1px 0 whitesmoke,
+	1px -1px 0 whitesmoke,
+	-1px 1px 0 whitesmoke,
+	1px 1px 0 whitesmoke;
+}
+
+.shadow2 {
+    text-shadow: -1px -1px 0 black, 
+	1px -1px 0 black,
+	-1px 1px 0 black,
+	1px 1px 0 black;  
+}
